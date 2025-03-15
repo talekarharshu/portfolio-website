@@ -1,0 +1,213 @@
+body{
+    background-image: radial-gradient( #e0e5e7,  #cdd0d2,  #bce4f6); 
+}
+
+.nav{
+    position: sticky;
+    top: 10px;
+}
+.navigation ul{
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(205, 205, 205); */
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+nav a{
+    text-decoration: none;
+}
+ul li{
+
+    /* list-style: none; */
+    text-decoration: none;
+    margin-left: 30px;
+    /* margin-bottom: 30px; */
+    font-size: 2em;
+}
+
+.div{
+    display: flex;
+}
+
+.left{
+    width: 40%;
+}
+.left img{
+    height: 30vh;
+    width: 30vw;
+    margin: 10px;
+    mix-blend-mode: multiply;
+}
+.right{
+    margin-left:10px;
+    width: 60%;
+    justify-content: end;
+    font-size: 1.2em;
+}
+
+.right button{
+    height: 50px;
+    width: 200px;
+    border: 5px solid rgb(6, 6, 6);
+    border-radius: 25px;
+    font-size: 17px;
+    /* font-weight: bold; */
+    background-color: rgb(47, 47, 250);
+    color: white;
+}
+
+.right button:hover{
+    background-color: white;
+    color: blue;
+    font-size: 19px;
+    font-weight: bolder;
+    border: 5px solid blue;
+}
+.skills h1{
+    margin-left: 40vw;
+    font-size: 2em;
+
+}
+.about h1{
+    margin-left: 40vw;
+    font-size: 2em;
+
+}
+#about{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+#icon{
+    margin-left: 37vw;
+}
+.icons img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+
+
+#skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+.skill{
+    height: 230px;
+    width: 130px;
+    border: 2px solid black;
+    /* border-radius:0 40px ; */
+    margin: 10px;
+    background-color:#cfd7d7c2;
+}
+
+.skill img{
+    mix-blend-mode: multiply;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    /* margin-left:27vw; */
+}
+
+.skill p{
+    text-align: center;
+    font-size: 1.1em;
+    /* font-weight: bold; */
+}
+
+.demo{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.skill p{
+    font-size: 0.8em;
+}
+
+.skill button{
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(87, 87, 247);
+    color: white;
+}
+
+.skill button:hover{
+    background-color: rgb(249, 249, 250);
+    color: rgb(67, 67, 251);
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pro{
+    height: 140px;
+    width: 180px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.pro img{
+    height:80px ;
+    width: 80px;
+    mix-blend-mode: multiply;
+}
+
+
+.pro a{
+    text-decoration: none;
+}
+.contact{
+    height: 270px;
+    width: 500px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#contact{
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    height: 40px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(80, 80, 245);
+    color: #fcffff;
+}
+
+#btn:hover{
+    color: rgb(80, 80, 245);
+    background-color: #fbfcfc;
+    font-size: 1em;
+    font-weight: bold;
+}
